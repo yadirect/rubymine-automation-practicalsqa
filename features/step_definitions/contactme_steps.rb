@@ -1,4 +1,7 @@
-  path = "C:/Users/root/RubymineProjects/rubymine-automation-practicalsqa/drivers/chromedriver.exe"
+  path = "drivers/chromedriver.exe"
+  # path = "C:/Users/root/RubymineProjects/rubymine-automation-practicalsqa/drivers/chromedriver.exe"
+  # path = "drivers/geckodriver.exe"
+  # path = "C:/Users/root/RubymineProjects/rubymine-automation-practicalsqa/drivers/geckodriver.exe"
 
 Given(/^I navigate to Contact Me page$/) do
   @browser = Selenium::WebDriver.for :chrome, driver_path: path

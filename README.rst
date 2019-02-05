@@ -79,9 +79,7 @@ To run the framework:
 cucumber
 
 To run the framework with tag - 'Feature':
-cucumber -t @Login
+cucumber -t @login
 or
-cucumber -t @ContactMe
+cucumber -t @contactMe
 
-cucumber -t @logintest
-cucumber -t @contactmetest
